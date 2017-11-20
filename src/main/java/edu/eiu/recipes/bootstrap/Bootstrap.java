@@ -53,7 +53,7 @@ public class Bootstrap implements ApplicationListener<ContextRefreshedEvent>{
             throw new RuntimeException("Unit of measure 'each' not found");
         }
         avocados.setUnitOfMeasure(eachOptional.get());
-        System.out.print("aa");
+
     }
 
     private void initUnitOfMeasures() {
